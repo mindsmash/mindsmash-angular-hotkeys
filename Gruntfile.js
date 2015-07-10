@@ -18,7 +18,7 @@ module.exports = function (grunt) {
                 report: 'gzip'
             },
             build: {
-                src: ['src/mindsmash-angular-hotkeys.js'],
+                src: ['dist/mindsmash-angular-hotkeys.js'],
                 dest: 'dist/mindsmash-angular-hotkeys.min.js'
             }
         },
@@ -41,7 +41,7 @@ module.exports = function (grunt) {
                 src: 'Gruntfile.js'
             },
             src: {
-                src: ['src/*.js']
+                src: 'src/*.js'
             }
         }
     });
