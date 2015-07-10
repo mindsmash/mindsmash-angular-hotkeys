@@ -5,7 +5,7 @@
         "mindsmash GmbH"
     ],
     "description": "Fork of AngularHotkeys.js with ui-router integration and without shortcut cheat sheet.",
-    "main": "dist/mindsmash-angular-hotkeys.js",
+    "main": "dist/mindsmash-angular-hotkeys.min.js",
     "keywords": [
         "angular",
         "angularjs",

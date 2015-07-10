@@ -6,13 +6,7 @@
     "description": "Fork of AngularHotkeys.js with ui-router integration and without shortcut cheat sheet.",
     "homepage": "https://github.com/mindsmash/mindsmash-angular-hotkeys",
     "main": "dist/mindsmash-angular-hotkeys.js",
-    "keywords": [
-        "angular",
-        "angularjs ",
-        "keyboard",
-        "shortcut",
-        "hotkeys"
-    ],
+    "keywords": ["angular", "angularjs ", "keyboard", "shortcut", "hotkeys"],
     "repository": {
         "type": "git",
         "url": "git://github.com/mindsmash/mindsmash-angular-hotkeys.git"
