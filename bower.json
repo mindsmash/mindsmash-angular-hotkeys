@@ -1,25 +1,32 @@
 {
-  "name": "mindsmash-hotkeys",
-  "version": "1.0.0",
-  "authors": [
-    "mindsmash GmbH"
-  ],
-  "description": "Fork of AngularHotkeys.js with ui-router integration and without shortcut cheat sheet.",
-  "main": "mindsmash-hotkeys.js",
-  "keywords": [
-    "shortcut",
-    "hotkeys"
-  ],
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "components",
-    "test",
-    "example"
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/mindsmash/mindsmash-angular-hotkeys",
-  "dependencies": {
-    "mousetrap": "~1.5.3"
-  }
+    "name": "mindsmash-angular-hotkeys",
+    "version": "1.0.0",
+    "authors": [
+        "mindsmash GmbH"
+    ],
+    "description": "Fork of AngularHotkeys.js with ui-router integration and without shortcut cheat sheet.",
+    "main": "dist/mindsmash-angular-hotkeys.js",
+    "keywords": [
+        "angular",
+        "angularjs",
+        "keyboard",
+        "shortcut",
+        "hotkeys"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "components",
+        "test",
+        "example"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/mindsmash/mindsmash-angular-hotkeys",
+    "dependencies": {
+        "mousetrap": "~1.5.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mindsmash/mindsmash-angular-hotkeys.git"
+    }
 }

@@ -1,29 +1,30 @@
 {
-  "name": "mindsmash-angular-hotkeys",
-  "author": "mindsmash GmbH",
-  "version": "1.0.0",
-  "license": "MIT",
-  "description": "Fork of AngularHotkeys.js with ui-router integration and without shortcut cheat sheet.",
-  "homepage": "https://github.com/mindsmash/mindsmash-angular-hotkeys",
-  "main": "dist/mindsmash-angular-hotkeys.js",
-  "keywords": [
-    "angular",
-    "angularjs",
-    "keyboard",
-    "shortcut",
-    "hotkeys"
+    "name": "mindsmash-angular-hotkeys",
+    "author": "mindsmash GmbH",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Fork of AngularHotkeys.js with ui-router integration and without shortcut cheat sheet.",
+    "homepage": "https://github.com/mindsmash/mindsmash-angular-hotkeys",
+    "main": "dist/mindsmash-angular-hotkeys.js",
+    "keywords": [
+        "angular",
+        "angularjs ",
+        "keyboard",
+        "shortcut",
+        "hotkeys"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mindsmash/mindsmash-angular-hotkeys.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mindsmash/mindsmash-angular-hotkeys/issues"
-  },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-contrib-uglify": "^0.9.1",
-    "grunt-ng-annotate": "1.0.0"
-  }
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mindsmash/mindsmash-angular-hotkeys.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mindsmash/mindsmash-angular-hotkeys/issues"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-cli": "^0.1.13",
+        "grunt-contrib-jshint": "^0.11.2",
+        "grunt-contrib-uglify": "^0.9.1",
+        "grunt-ng-annotate": "1.0.0"
+    }
 }
