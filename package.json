@@ -12,7 +12,7 @@
         "keyboard",
         "shortcut",
         "hotkeys"
-  ],
+    ],
     "repository": {
         "type": "git",
         "url": "git://github.com/mindsmash/mindsmash-angular-hotkeys.git"
