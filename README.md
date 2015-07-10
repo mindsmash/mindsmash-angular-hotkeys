@@ -2,7 +2,8 @@
 Hotkey library for AngularJS. 
 
 ### Features:
-- Define hotkeys on an entire route (ngRoute or ui-router), automatically binding and unbinding them as you navigate
+- Define hotkeys on an entire route (ngRoute), automatically binding and unbinding them as you navigate
+- Bind hotkeys for navigating to a specific route (ui-router)
 - Directive hotkey binding
 
 ### Installation:
@@ -75,13 +76,20 @@ angular.module('myApp').config(function ($routeProvider) {
   });
 });
 ```
+#### Binding hotkeys to states:
+You can also define a hotkey to be bound to a specific ui-router state.
 
 ```js
 angular.module('myApp').config(function ($stateProvider) {
   $stateProvider.state('myState', {
-    url: '/myState',
-    hotkey: { combo:'s', description:'Some shortcut description' }
-  })
+    url: '/',
+    controller: 'RestaurantsController',
+    templateUrl: 'views/restaurants.html',
+    hotkey: {
+        combo: 'r',
+        description: 'View all restaurants'
+    }
+  });
 });
 ```
 
@@ -165,3 +173,8 @@ hotkeys.add({
 ## Credits:
 
 This is a fork of [chieffancypants/angular-hotkeys](https://github.com/chieffancypants/angular-hotkeys). 
+
+### Contributors
+
+Daniel Busch, mindsmash GmbH
+Jan Marquardt, mindsmash GmbH
