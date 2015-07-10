@@ -176,5 +176,5 @@ This is a fork of [chieffancypants/angular-hotkeys](https://github.com/chieffanc
 
 ### Contributors
 
-Daniel Busch, mindsmash GmbH
-Jan Marquardt, mindsmash GmbH
+  * Daniel Busch, mindsmash GmbH
+  * Jan Marquardt, mindsmash GmbH
