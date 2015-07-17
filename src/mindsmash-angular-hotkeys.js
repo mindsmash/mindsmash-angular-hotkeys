@@ -150,6 +150,13 @@
           }
         }
       }
+      
+      /**
+       * Returns all currently bound hotkeys.
+       */
+      function _getList () {
+    	  return hotkeys;
+      }
 
       /**
        * Creates a new Hotkey and creates the Mousetrap binding
@@ -389,6 +396,7 @@
         add                   : _add,
         del                   : _del,
         get                   : _get,
+        getList               : _getList,
         bindTo                : bindTo,
         purgeHotkeys          : purgeHotkeys
       };
