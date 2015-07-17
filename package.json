@@ -1,7 +1,7 @@
 {
     "name": "mindsmash-angular-hotkeys",
     "author": "mindsmash GmbH",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "description": "Fork of AngularHotkeys.js with ui-router integration and without shortcut cheat sheet.",
     "homepage": "https://github.com/mindsmash/mindsmash-angular-hotkeys",
